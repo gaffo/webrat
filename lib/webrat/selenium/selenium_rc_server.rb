@@ -3,7 +3,7 @@ module Webrat
 
     class SeleniumRCServer
       
-      include Webrat::SilentStream
+      include Webrat::SilenceStream
 
       def self.boot
         new.boot

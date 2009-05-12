@@ -4,6 +4,7 @@ require "selenium/client"
 require "webrat/selenium/selenium_session"
 require "webrat/selenium/matchers"
 require "webrat/core_extensions/tcp_socket"
+require "webrat/core_extensions/silence_stream"
 
 module Webrat
   # To use Webrat's Selenium support, you'll need the selenium-client gem installed.
